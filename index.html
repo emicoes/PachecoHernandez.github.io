@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <meta charset="UTF-8">
+    <title>Pacheco-Hernández - Pedido de Hamburguesas a Domicilio</title>
+    <style>
+        body {
+            background: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .animated-bg {
+            animation-duration: 5s;
+            animation-name: play;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes play {
+            0% {
+                background-color: #333;
+            }
+            25% {
+                background-color: #FFA500;
+            }
+            50% {
+                background-color: #FFD700;
+            }
+            75% {
+                background-color: #FFA500;
+            }
+            100% {
+                background-color: #333;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffd700;
+            margin-top: 50px;
+            font-size: 72px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 4px 4px 10px #333;
+        }
+
+        h1 img {
+            max-width: 20%;
+            margin-left: 10px;
+        }
+
+        .btn-pedido {
+            display: block;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn-pedido a {
+            display: inline-block;
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-out;
+            text-decoration: none;
+        }
+
+        .btn-pedido a:hover {
+            background-color: #FFA500;
+        }
+    </style>
+</head>
+<body class="animated-bg">
+    <h1>
+        Pacheco Hernández <img src="C:\Users\emico\OneDrive\Documentos\html\Pacheco - Hernández\logo toro blanco con sombre.png" alt="Logo">
+    </h1>
+    <div class="btn-pedido">
+        <a href="formulario.html">Hacer Pedido</a>
+    </div>
+</body>
+</html>
